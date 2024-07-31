@@ -40,7 +40,7 @@ def cython_Bypass():
         sys.exit("حاول لاحقا")
 
 
-a = requests.get("https://github.com/br5kly/Marshal-Bypass/blob/main/app").text
+a = requests.get("https://github.com/trybybass/trybybass/blob/main/app").text
 if not "[START]" in a:
     sys.exit("BYE BYE")
 
