@@ -54,7 +54,7 @@ class Marshal_Setup:
         self.bin = "/data/data/com.termux/files/usr/bin"
         self.execute = self.opt + "/run.py"
         self.run = self.bin + "/DEVIL"
-        self.cython = "BAYYY"
+        self.cython = "BAYYY.py"
         if not os.path.exists(self.opt):
             os.system(f"mkdir {self.opt}")
         if os.path.exists("run.py"):
