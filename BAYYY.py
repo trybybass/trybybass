@@ -186,7 +186,7 @@ def final_banner(layer):
 class Bypass:
     def __init__(self, marshal_file):
         banner()
-        if os.path.splitext(marshal_file)[1] == ".so":
+        if os.path.splitext(marshal_file)[1] == ".py":
             cython_Bypass()
         if not os.path.exists(marshal_file):
             sys.exit("\033[2;31m File Not Found")
